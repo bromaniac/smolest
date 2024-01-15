@@ -1,6 +1,6 @@
 I couldn't get cross compilation to work so build this in an Alpine container:
 
-docker run --rm -it -v ./:mnt alpine sh
+docker run --rm -it -v .:/mnt alpine sh
 
 All deps needed are in the alpine.sh script so run that.
 
