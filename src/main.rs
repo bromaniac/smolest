@@ -27,7 +27,7 @@ fn handle_read(mut stream: &TcpStream) {
 }
 
 fn main() {
-    let listener = TcpListener::bind("127.0.0.1:8000").unwrap();
+    let listener = TcpListener::bind("0.0.0.0:8000").unwrap();
     println!("Listening for connections on port {}", 8000);
 
     for stream in listener.incoming() {
