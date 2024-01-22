@@ -26,4 +26,4 @@ Run it:
 
 docker run --rm -it --init -p 8000:8000 smolest
 
-To make this even smaller probably envolves using no_std... good luck!
+To make this even smaller probably involves using no_std... good luck!
